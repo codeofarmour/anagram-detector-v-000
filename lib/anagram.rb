@@ -8,5 +8,5 @@ class Anagram
   
   def match(matches)
     @word = @word.split('').sort
-    
+    matches.collect!
 end
