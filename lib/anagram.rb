@@ -4,3 +4,6 @@ class Anagram
 end
 
 def initialize(anagrams)
+  @anagrams = anagrams
+end
+end
